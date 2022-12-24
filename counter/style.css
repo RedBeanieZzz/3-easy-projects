@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+body{
+    font-family: 'MuseoModerno', cursive;
+    margin: auto;
+    width: 50%;
+    background-image: linear-gradient(to bottom right, #0f0f0f, #021d1b, #046d5b) ;
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    background: -webkit-linear-gradient(#116466,
+    #5aeec7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.operator{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    font-size: 40px;
+    background-color: transparent;
+    background: -webkit-linear-gradient(#116466,
+    #5aeec7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:20px 40px;
+    border: none;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px 19px #0f0f0f;
+    
+}
+
+button:hover {
+    padding: 30px 50px;
+    background-image: linear-gradient(to bottom right, #062b2c, #116466) ;
+    box-shadow:  4px 4px 19px #116466;
+}
+
+.center{ 
+    padding: 70px 80px;
+    border-radius: 50%;
+    color: #116466;
+    font-size: 60px;
+    text-shadow: 4px 4px 9px #0f0f0f;
+    background: -webkit-linear-gradient(#116466,
+    #5aeec7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: transparent;
+    box-shadow: 2px 2px 19px #0f0f0f;
+}
+
+.footer{
+    text-align: center;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#116466,
+    #5aeec7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+

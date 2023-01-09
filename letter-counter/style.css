@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Unbounded', cursive;
-    margin: auto;
+    margin: 0 auto;
     width: 50%;
     text-align: center;
     background-color: burlywood;
@@ -17,25 +17,23 @@ body{
     margin: 20px 40px 20px 40px;
     align-items: center;
     padding: 10px 10px;
-    background-color: transparent;
-    box-shadow: 0 4px 9px black;
     font-family: 'Unbounded', cursive;
     text-align: center;
-    color: white;
+    color: #000;
     transition-duration: 0.4s;
+    background-color: transparent;
+    box-shadow: 0 0px 9px #000;
 }
 
 .input::placeholder{
-    color: white;
+    color: rgb(112, 112, 112);
     text-align: center;
 }
 
 .input:hover {
-    box-shadow: 0 8px 19px black;
+    box-shadow: 0 8px 19px #000;
     background: rgb(156, 125, 85);
-    font-size: 20px;
-     
-    
+    font-size: 30px;
 }
 
 .spanid {
@@ -43,4 +41,35 @@ body{
     align-items: center;
     display: block;
     font-size: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+    body{
+        margin: 20px;
+        text-align: center;
+    }
+    .title {
+        width: 80%;
+        max-width: 350px;
+        font-size: 35px;
+        display: flex;
+    }
+
+    .input{
+        margin: 80px 50px 60px;
+        position: relative;
+    }
+
+    .input:hover {
+        margin: 80px 30px 60px;
+        box-shadow: 0 8px 19px #000;
+        background: rgb(156, 125, 85);
+        font-size: 15px;
+    }
+
+    .spanid {
+        width: 90%;
+        padding: 10%;
+        display: flex;
+    }
 }

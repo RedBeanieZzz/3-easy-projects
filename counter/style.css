@@ -2,14 +2,12 @@
 
 body{
     font-family: 'MuseoModerno', cursive;
-    margin: auto;
-    width: 50%;
+    margin: 0 auto;
     background-image: linear-gradient(to bottom right, #0f0f0f, #021d1b, #046d5b) ;
-    
+    text-align: center;
 }
 
 .title{
-    text-align: center;
     font-size: 35px;
     background: -webkit-linear-gradient(#116466,
     #5aeec7);
@@ -19,10 +17,10 @@ body{
 
 .operator{
     position: relative;
-    text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content:center ;
     align-items: center;
+    gap: 40px;
 }
 
 button{
@@ -41,13 +39,14 @@ button{
 }
 
 button:hover {
+    font-size: 45px;
     padding: 30px 50px;
-    background-image: linear-gradient(to bottom right, #062b2c, #116466) ;
-    box-shadow:  4px 4px 19px #116466;
+    background-color: #116466 ;
+    box-shadow:  0px 0px 20px  #116466;
 }
 
 .center{ 
-    padding: 70px 80px;
+    padding: 50px 80px;
     border-radius: 50%;
     color: #116466;
     font-size: 60px;
